@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap');
+:root{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'playfair display';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    width: 4rem;
+    margin: 1.5rem  3rem;
+}
+nav ul{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 30rem;
+    height: 40px;
+    margin: 1rem 4rem;
+}
+nav ul li{
+    align-self: center;
+    
+}
+.active{
+    color: #041958;
+    background-color: white ;
+    border-radius: 15px;
+    padding: 6px 1rem ;
+}
+ /* nav ul .vec{
+     display: none;
+ } */
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'inter';
+    font-weight: bold;
+}
+#sect1{
+    background-image: url(../img/img1.png);
+    margin-top: -7.1rem;
+
+}
+#sect1 .container{
+    padding: 11rem 0 8rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#sect1 img{
+    width: 497px;
+    height: 273px;
+}
+#sect1 h1{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 97.3%;
+}
+#sect1 p{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 97.3%;
+}
+.text{
+    width: 540px;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main{
+    background-image: url(../img/img38.png);
+}
