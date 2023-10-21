@@ -8,6 +8,7 @@
 }
 body{
     font-family: 'playfair display';
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -65,7 +66,7 @@ nav ul li a{
 }
 #sect1 h1{
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 600;
     line-height: 97.3%;
@@ -85,4 +86,198 @@ nav ul li a{
 }
 main{
     background-image: url(../img/img38.png);
+    width: 79rem;
+    height: 3133px;
+    margin-top: -276px;
+}
+main  h2{
+    color: #1B1A5E;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 3rem 0;
+}
+main #sect2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20rem;
+}
+main #sect2 .abt{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+main #sect2 .abt img{
+    width: 500px;
+    height: 300px;
+}
+main #sect2 .abt .text p{
+    color: #050434;
+    font-size: 1.5rem;
+}
+main #sect2 .abt .text a{
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+main #sect2 .abt .btncont .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    background: #4975AB;
+    width: 252px;
+    height: 48px;
+}
+main #sect2 .abt .btncont{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+main #sect2 .abt .btn img{
+    height: 24px;
+    width: 44px;
+    margin-left: -5rem;
+}
+main #sect3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main #sect3 .container{
+    display: flex;
+    gap: 2rem;
+}
+main #sect3 .container .bg{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: -6rem;
+}
+main #sect3 .container .bg img{
+    width: 126px;
+}
+main #sect3 .container .info{
+    background-image: url(../img/img42.png);
+    padding: 34px 5px;
+    margin-top: -.25rem;
+}
+main #sect3 .container .info h3{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    padding-left: 20px;
+}
+main #sect3 .container .info p{
+    width: 203px;
+    margin-top: 10px;
+    color: #373737;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 100%;
+    padding-left: 20px;
+}
+main #sect4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main #sect4 .picgrid{
+    display: flex;
+    padding: 0 8.8rem;
+    align-items: center;
+}
+main #sect4 .fourpics{
+    display: flex;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+}
+main #sect5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main #sect5 .container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 5.5rem;
+}
+main #sect5 .container .cont1 , #sect5 .container .cont2{
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+}
+main #sect5 .container .question{
+    display: flex;
+    align-items: center;
+    width: 545px;
+    border-radius: 15px;
+    background: #5586C2;
+    
+}
+main #sect5 .container .question img{
+    width: 40px;
+}
+main #sect5 .container .question p {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    width: 440px;
+    padding: 8px 20px;
+   
+}
+main #sect5 .container .answer{
+    width: 542px;
+    height: 3rem;
+    padding-top: 3rem;
+    background-color: #5586c262;
+    margin-top: -3rem;
+    border-radius:0 0 20px 20px;
+}
+main #sect5 .container .answer p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    margin: -2rem 3rem;
+}
+footer{
+    background-color: #041958;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12rem 0;
+}
+footer .container .flogo{
+    width: 121px;
+    height: 135px;
+}
+footer .container .fnavbar ul{
+    list-style: none;
+}
+footer .container .fnavbar li{
+    padding: 5px 0;
+}
+footer .container .fnavbar a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 2rem;
+    font-weight: 400;
+}
+footer .container h3{
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 2rem;
+    font-weight: 400;
+}
+footer .container .sm{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 ;
+}
+footer .container .sm img{
+    padding: 0 5px;
 }
