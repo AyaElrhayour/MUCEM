@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap');
+:root{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'playfair display';
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    width: 4rem;
+    margin: 1.5rem  3rem;
+}
+nav ul{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    border: 2px solid #041958;
+    border-radius: 30px;
+    width: 30rem;
+    height: 40px;
+    margin: 1rem 4rem;
+}
+nav ul li{
+    align-self: center;
+    
+}
+.active{
+    color: white;
+    background-color: #041958 ;
+    border-radius: 15px;
+    padding: 6px 1rem ;
+}
+ /* nav ul .vec{
+     display: none;
+ } */
+nav ul li a{
+    text-decoration: none;
+    color: #041958;
+    text-align: center;
+    font-family: 'inter';
+    font-weight: bold;
+}
+#sect1{
+    background-image: url(../img/img15.png);
+    margin-top: -7rem;
+    width: 1280px;
+    height: 1052px;
+}
+#sect1 .maincont{
+    padding-top: 16rem;
+    display: flex;
+    flex-direction: column;
+}
+#sect1 .maincont .title{
+    align-self: self-end;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+}
+#sect1 .maincont .title h1 {
+    width: 820px;
+    color: #041958;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 97.3%;
+}
+#sect1 .maincont .title p{
+    width: 662px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+}
+#sect1 .maincont .cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sect1 .maincont .cont .infocont{
+    display: flex;
+    align-self: flex-end;
+    gap: 2rem;
+    padding-right: 44px;
+}
+#sect1 .maincont .cont .location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+#sect1 .maincont .cont .location p{
+    width: 120px;
+    height: 83px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+#sect1 .maincont .cont .time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+#sect1 .maincont .cont .time .txt{
+    display: flex;
+    gap: 1rem;
+}
+#sect1 .maincont .cont .time p{
+    width: 79px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+#sect1 .maincont .cont .ticket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+#sect1 .maincont .cont .ticket .txt1{
+    display: flex;
+    gap: 1rem;
+}
+#sect1 .maincont .cont .ticket p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+#sect1 .maincont .cont .ticket .txt1 p{
+    width: 50px;
+}
+#sect1 .maincont .cont .vid{
+    padding-right: 70px;
+    padding-top: 1.5px;
+}
+main{
+    width: 1280px;
+    height: 1000px;
+    background: rgba(165, 195, 212, 0.55);
+}
+main #sect2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+main #sect2 .navcont {
+    display: flex;
+    gap: 3rem;
+    padding-top: 4rem;
+}
+main #sect2 .navcont p{
+    padding-top: 20px ;
+}
+main #sect2 .navcont .firstp{
+    width: 300px;
+    height: 74px;
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    background: #041958;
+}
+main #sect2 .navcont .firstp p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+main #sect2 .navcont .scndp , .trdp{
+    width: 300px;
+    height: 74px;
+    border-radius: 40px;
+    border: 2.362px solid #041958;
+}
+main #sect2 .navcont .scndp p , .trdp p{
+    color: #041958;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+main #sect2 .piccon{
+    display: flex;
+    gap: 2rem;
+}
+main #sect2 .piccon .fourpic {
+    width: 682px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+footer{
+    background-color: #041958;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12rem 0;
+}
+footer .container .flogo{
+    width: 121px;
+    height: 135px;
+}
+footer .container .fnavbar ul{
+    list-style: none;
+}
+footer .container .fnavbar li{
+    padding: 5px 0;
+}
+footer .container .fnavbar a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 2rem;
+    font-weight: 400;
+}
+footer .container h3{
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 2rem;
+    font-weight: 400;
+}
+footer .container .sm{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 ;
+}
+footer .container .sm img{
+    padding: 0 5px;
+}
