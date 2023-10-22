@@ -29,7 +29,13 @@ nav ul{
 }
 nav ul li{
     align-self: center;
-    
+}
+nav ul li a:hover{
+    border: 2px solid #041958;
+    box-shadow: 5px 5px 8px #00000071;
+    border-radius: 18px;
+    padding: 6px 1rem ;
+    transition:  ease-in-out;
 }
 .active{
     color: white;
@@ -167,7 +173,8 @@ main #sect3 input , select{
     line-height: 97.3%; 
     padding-left: 2rem; 
 }
- main #sect3 select .option1{
+.option1{
+    padding-left: 20px;
     color: #0419589a;
     font-size: 24px;
  }

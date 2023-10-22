@@ -27,8 +27,14 @@ nav ul{
     margin: 1rem 4rem;
 }
 nav ul li{
-    align-self: center;
-    
+    align-self: center;  
+}
+nav ul li a:hover{
+    border: 2px solid #041958;
+    box-shadow: 5px 5px 8px #00000071;
+    border-radius: 18px;
+    padding: 6px 1rem ;
+    transition:  ease-in-out;
 }
 .active{
     color: white;
