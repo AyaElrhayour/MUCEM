@@ -9,13 +9,18 @@
 <body>
     <header>
       <a href="index.html"><img src="./img/logob.png" class="logo" alt=""></a>
-        <nav>
-          <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="gallery.html">Galerie</a></li>
-            <li><a class="active" href="atelier.html">Atelier</a></li>
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html">Accueil</a></li>
+            <li class="nav-item"><a href="gallery.html">Galerie</a></li>
+            <li class="nav-item"><a class="active" href="atelier.html">Atelier</a></li>
           </ul>
         </nav>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
     </header>
     <section id="sect1">
         <div class="container">
@@ -26,17 +31,19 @@
                     de l’histoire personnelle de son créateur,
                     d’une partie de ses émotions les plus intimes.</p>
                 <div class="date">
+                  <div class="cont">
                     <div class="day">
-                        <h2>Date:</h2>
-                        <p>de :27 oct 2023
-                            à:     30 oct 2023</p>
-                    </div>
-                    <div class="line"></div>
-                        <div class="time">
-                            <h2>Heure:</h2>
-                            <p style="width: 83px;">de: 10:00 
-                               à  :  18:00</p>
+                      <h2>Date:</h2>
+                      <p>de :27 oct 2023
+                        à:     30 oct 2023</p>
+                      </div>
+                      <div class="line"></div>
+                      <div class="time">
+                        <h2>Heure:</h2>
+                        <p style="width: 83px;">de: 10:00 
+                          à  :  18:00</p>
                         </div>
+                      </div>
                         <a href="#">Réservez</a>
                 </div>
             </div>
@@ -60,26 +67,28 @@
         </section>
         <section id="sect3">
             <h2>Réservez votre place</h2>
-            <div class="img">
+            <div class="cont">
+              <div class="img">
                 <img src="./img/img37.png" alt="">
-            </div>
-            <div class="inputs">
-                <input type="text" placeholder="Nom complet">
-                <input type="text" placeholder="Carte d'identité">
-                <input type="text" placeholder="E-mail">
-                <input type="text" placeholder="Numéro de téléphone">
+              </div>
+              <div class="inputs">
+                <input id="fn" type="text" placeholder="Nom complet">
+                <input id="cin" type="text" placeholder="Carte d'identité">
+                <input id="txtEmail" type="text" placeholder="E-mail">
+                <input id="phone" type="text" placeholder="Numéro de téléphone">
                 <select name="">
-                    <option value="0" class="option1">Choisissez l'atelier qui vous intéresse</option>
-                    <option value="1" >Dog</option>
-                    <option value="2">Cat</option>
-                    <option value="3">Hamster</option>
-                    <option value="4">Parrot</option>
-                    <option value="5">Spider</option>
+                  <option value="0" class="option1">Choisissez l'atelier qui vous intéresse</option>
+                  <option value="1">Atelier 1</option>
+                  <option value="2">Atelier 2</option>
+                  <option value="3">Atelier 3</option>
+                  <option value="4">Atelier 4</option>
+                  <option value="5">Atelier 5</option>
                 </select>
-
-            </div>
-            <div class="btn">
-                <a href="#">SUBMIT</a>
+                
+              </div>
+              <div class="btn">
+                <button onclick="RegEx()">SUBMIT</button>
+              </div>
             </div>
         </section>
     </main>
@@ -109,5 +118,8 @@
               </div>
         </div>
       </footer>
+
+      <script src="js/menu.js"></script>
+      <script src="js/regex.js"></script>
 </body>
 </html>

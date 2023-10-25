@@ -43,9 +43,9 @@ nav ul li a:hover{
     border-radius: 15px;
     padding: 6px 1rem ;
 }
- /* nav ul .vec{
+.vec{
      display: none;
- } */
+ }
 nav ul li a{
     text-decoration: none;
     color: #041958;
@@ -55,9 +55,9 @@ nav ul li a{
 }
 #sect1{
     background-image: url(../img/img44.png);
-    width: 1280px;
+    width: 100%;
     height: 685px;
-    margin-top: -7rem;
+    margin-top: -7.3rem;
 }
 #sect1 .container{
     display: flex;
@@ -83,6 +83,11 @@ nav ul li a{
     font-size: 25px;
     font-weight: 400;
     line-height: 97.3%;
+}
+#sect1 .info .date .cont{
+    display: flex;
+    align-items: center;
+    GAP: 2rem;
 }
 #sect1 .info .date{
     display: flex;
@@ -120,7 +125,7 @@ nav ul li a{
 }
 main{
     background-image: url(../img/img45.png);
-    width: 1280px;
+    width: 100%;
     height: 1760px;
 }
 main #sect2{
@@ -158,6 +163,7 @@ main #sect3 .inputs{
     flex-direction: column;
     gap: 1.23rem;
     margin-top:-524px ;
+    margin-left: 82px;
 }
 main #sect3 input , select{
     width: 549px;
@@ -178,7 +184,7 @@ main #sect3 input , select{
     color: #0419589a;
     font-size: 24px;
  }
-main #sect3 a{
+main #sect3 button{
     border-radius: 37px;
     background: #5586C2;
     color: #FFF;
@@ -187,9 +193,12 @@ main #sect3 a{
     line-height: 97.3%; 
     text-decoration: none;
     padding: 10px 30px ;
+    border: none;
+    cursor: pointer;
 }
 main #sect3 .btn{
-    margin-top: 55px;
+    margin-top: 45px;
+    margin-left: 268px;
 }
 footer{
     background-color: #041958;
@@ -232,3 +241,142 @@ footer .container .sm{
 footer .container .sm img{
     padding: 0 5px;
 }
+.hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #050434;
+  }
+@media screen and (max-width: 430px) {
+    header {
+        align-items: center;
+      }
+      .hamburger{
+        display: block;
+      }
+    
+      .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+      }
+      .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+      }
+      .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+      }
+   
+      .nav-menu{
+        position: absolute;
+        border: none;
+        left: -15%;
+        top: -40%;
+        background-color: #010121a4;
+        height: 150px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+      }
+    
+      .nav-item{
+        margin: 16px 0;
+      }
+    
+      .nav-menu.active{
+        top: 25%;
+      }
+    header .logo{
+        width: 4rem;
+        margin: 1.5rem  2rem;
+    }
+    #sect1{
+        background-image: url(../img/img44.png);
+        background-size: cover;
+        width: 430px;
+        height: 1000px;
+        
+    }
+    #sect1 .container{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 110px;
+        margin-right: -5rem;
+    }
+    #sect1 .info .date .cont {
+      margin-left: -144px;
+    }
+    #sect1 .info .date {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #sect1 .info h1 {
+        font-size: 4rem;
+    }
+    #sect1 .info p {
+        width: 374px;
+    }
+    #sect1 .container .img{
+        margin-right: 80px;
+    }
+    #sect1 .container .img img {
+        width: 165px;
+    }
+    #sect1 .info .date a {
+        margin-right: 271px;
+    }
+    main {
+        background-size: cover;
+        margin-top: -10px;
+    }
+    main h2 {
+        font-size: 2rem;
+    }
+    main #sect2 .piccont {
+        scale: 0.8;
+        margin-top: -172px;
+    }
+    main #sect2 .piccont img{
+        margin-left: 205px;
+    }
+    main #sect2 .fourpic {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    main #sect2 .fourpic img{
+        width: 336px;
+    }
+    main #sect3{
+        background-color:#CEDEE8 ;
+        margin-top: -189px;
+    } 
+    main #sect3 .cont{
+        scale: 0.5;
+        margin-top: -163px;
+    }
+    footer {
+        margin-top: 280px;
+    }
+    footer .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+    footer .container .label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .container{
+        gap: 3rem;
+        transform: scale(0.7);
+    }
+    }

@@ -6,3 +6,5 @@ accordions.forEach(item => {
     })
 })
 
+
+

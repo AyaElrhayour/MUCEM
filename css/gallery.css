@@ -241,20 +241,60 @@ footer .container .sm{
 footer .container .sm img{
     padding: 0 5px;
 }
+.hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #050434;
+  }
 @media screen and (max-width: 430px) {
     header {
         align-items: center;
       }
-      nav{
-        display: none;
-        }
-     .vec{
+      .hamburger{
         display: block;
-        margin-top: 19px;
-        margin-right: 36px;
       }
-      .vec img{
-        width: 40px;
+      .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+      }
+      .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+      }
+      .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+      }
+    
+      nav {
+        background-color: #050434;
+      }
+      .nav-menu{
+        position: absolute;
+        border: none;
+        left: -15%;
+        top: -40%;
+        background-color: #010121a4;
+        height: 150px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+      }
+    
+      .nav-item{
+        margin: 16px 0;
+      }
+    
+      .nav-menu.active{
+        top: 25%;
       }
       #sect1{
         width: 1000px;
