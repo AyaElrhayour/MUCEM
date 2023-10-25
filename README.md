@@ -18,7 +18,7 @@ https://ayaelrhayour.github.io/MUCEM/
 
 ## Presentation
 
-- [Presentation Link](https://www.canva.com/design/DAFxKX-_o5g/Rhx6IlwatamHAqCl9CqWzA/edit?utm_content=DAFxKX-_o5g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Presentation Link](https://www.canva.com/design/DAFySvL4TFY/T3UKILDxEnyhfj38haM_9Q/edit?ui=eyJHIjp7fX0)
 
 ## Trello
 
