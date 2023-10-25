@@ -42,9 +42,9 @@ nav ul li a:hover{
     border-radius: 15px;
     padding: 6px 1rem ;
 }
- /* nav ul .vec{
+.vec{
      display: none;
- } */
+ }
 nav ul li a{
     text-decoration: none;
     color: #041958;
@@ -55,8 +55,7 @@ nav ul li a{
 #sect1{
     background-image: url(../img/img15.png);
     margin-top: -7rem;
-    width: 1280px;
-    height: 1052px;
+    width: 100%;
 }
 #sect1 .maincont{
     padding-top: 16rem;
@@ -203,6 +202,7 @@ main #sect2 .piccon .fourpic {
 }
 footer{
     background-color: #041958;
+    width: 100%;
 }
 footer .container{
     display: flex;
@@ -241,3 +241,95 @@ footer .container .sm{
 footer .container .sm img{
     padding: 0 5px;
 }
+@media screen and (max-width: 430px) {
+    header {
+        align-items: center;
+      }
+      nav{
+        display: none;
+        }
+     .vec{
+        display: block;
+        margin-top: 19px;
+        margin-right: 36px;
+      }
+      .vec img{
+        width: 40px;
+      }
+      #sect1{
+        width: 1000px;
+        height: 1052px;
+    }
+    #sect1 .maincont{
+        gap: 1rem;
+    }
+    #sect1 .maincont .title{
+        margin-right: 548px;
+        margin-top: -100px;
+    }
+      #sect1 .maincont .title h1{
+        width: 354px;
+        font-size: 2rem;
+    }
+    #sect1 .maincont .title p{
+        width: 253px;
+        font-size: 20px;
+    }
+    #sect1 .maincont .cont {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        margin-top:-40px ;
+    }
+    #sect1 .maincont .cont .vid{
+        padding-right: 612px;
+    }
+    #sect1 .maincont .cont .vid video{
+        width: 375px;
+    }
+    #sect1 .maincont .cont .infocont{
+        scale: 0.8;
+        padding-right: 644px;
+        
+    }
+    main #sect2{
+        background-color:#CEDEE8 ;
+    }
+    main #sect2 .navcont{
+        flex-direction: column;
+        align-self: flex-start;
+        padding-left: 45px;
+        scale: 0.8;
+        padding-top: 0rem;
+    }
+    main #sect2 .piccon {
+        flex-direction: column;
+        scale: 0.8;
+        align-self: flex-start;
+        margin-top: -224px;
+        padding-left: 22px;
+    }
+    main #sect2 .piccon img{
+        width: 40%;
+    }
+    main #sect2 .piccon .fourpic {
+        flex-direction: column;
+    }
+    footer{
+        margin-top: 796px;
+    }
+    footer .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+    footer .container .label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .container{
+        gap: 3rem;
+        transform: scale(0.7);
+    }
+    }
